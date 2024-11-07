@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - My Webpage</title>
+    <style>
+        body {
+            background-color: #cfe1b9;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+      
+
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px; 
+        }
+
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-container label {
+            margin: 5px 0;
+            color: #000;
+        }
+
+        .login-container input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            width: 200px; /* Adjust input width */
+        }
+
+        .btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #f5f8f0;
+            color: black;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: rgb(24, 24, 17);
+        }
+
+        .sign-btn-primary{
+            color: blue;
+        }
+
+        h2{
+            font-size: xx-large;
+            font-weight: bold;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+</style>
+    
+</head>
+<body>
+    <div class="login-container">
+        <h2>Log In</h2>
+        <form action="#" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <a href="Homepage.html" class="btn btn-primary">LOG IN</a>
+    </div>
+</body>
+</html>
